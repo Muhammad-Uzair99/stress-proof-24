@@ -1103,7 +1103,7 @@
                                 </svg>
                             </div>
                         </div>
-                        <p class="text-3xl w-full text-center mx-auto my-3">🔥 <span id="timer" class="text-center text-blue-600 font-semibold border border-blue-600 mx-auto py-2 px-4 rounded-lg shadow shadow-[#050315]">12:00:00</span> 🔥</p>
+                        <p class="text-2xl w-full text-center mx-auto my-3">🔥 <span id="timer" class="text-center text-red-600 font-semibold border border-blue-600 mx-auto py-2 px-4 rounded-lg shadow shadow-[#050315]">12 : 00 : 00</span> 🔥</p>
                         <script>
                             function startTimer(duration, display) {
                                 let timer = duration, hours, minutes, seconds;
@@ -1116,7 +1116,7 @@
                                     minutes = minutes < 10 ? "0" + minutes : minutes;
                                     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-                                    display.textContent = hours + ":" + minutes + ":" + seconds;
+                                    display.textContent = hours + " : " + minutes + " : " + seconds;
 
                                     if (--timer < 0) {
                                         timer = 0; // Stop the timer at 0
