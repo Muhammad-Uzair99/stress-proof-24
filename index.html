@@ -84,7 +84,7 @@
                             id='buyer1'>Olivia</span> just bought!</span>🔥
                 </li>
                 <li
-                    class='bg-gradient-to-b from-gray-600 via-gray-300 to-white inline-block text-transparent bg-clip-text'>
+                    class='bg-gradient-to-b from-gray-600 via-gray-300 to-white inline-block text-transparent bg-clip-text hidden'>
                     🔥<span id='buyer2'>Jim</span> just bought!🔥</li>
             </ul>
             <script>
@@ -139,9 +139,9 @@
                 function rotateNames() {
                     const buyer0 = document.getElementById("buyer0");
                     const buyer1 = document.getElementById("buyer1");
-                    const buyer2 = document.getElementById("buyer2");
+                    // const buyer2 = document.getElementById("buyer2");
 
-                    buyer2.textContent = buyer1.textContent;
+                    // buyer2.textContent = buyer1.textContent;
                     buyer1.textContent = buyer0.textContent;
                     buyer0.textContent = firstNames[index];
 
@@ -155,7 +155,7 @@
     </header>
 
     <main class='block w-full leading-relaxed'>
-        <section class="pt-2 mb-2">
+        <section class="pt-2 mb-2 hidden">
             <div class="max-w-[1012px] w-full px-2 mx-auto">
                 <p
                     class="text-[#fbfbfe] text-xs md:text-sm text-center bg-[#2f27ce] min-h-16 flex items-center justify-center px-2 mb-2 rounded-lg shadow shadow-[#050315]">
@@ -481,10 +481,21 @@
 
         <section class="py-4 mb-2 bg-[#2F27CE]">
             <div class="max-w-[1012px] w-full px-2 mx-auto">
-                <div id="youGet"
-                    class="w-full max-w-[45rem] mx-auto mb-2 bg-[#DEDCFF] rounded-lg px-2 py-1 shadow shadow-[#050315]">
-                    <h2 class="text-base sm:text-lg md:text-xl lg:text-3xl mb-1 font-extrabold text-center">Introduction!</h2>
 
+                <div class="w-[97%] px-2 text-[#fbfbfe] text-center">
+                    <h1 class="text-xl lg:text-3xl font-extrabold mb-1"><i>Stress-Proof Your Life: Discover
+                        Proven Techniques for Optimal Mental Health & Wellbeing!</i>
+                    </h1>
+                    <p class="mb-2 font-semibold text-sm">with my 6-steps technique to Manage Stress
+                        Effectively and Thrive in
+                        Any Situation!<br />
+                        <span class="font-extrabold text-sm">
+                            Download- HD Video Course + <a class="underline underline-offset-1" href="#bonus">2 FREE BONUSES</a>!
+                        </span>
+                    </p>
+                </div>
+
+                <div class="w-full max-w-[45rem] mx-auto mb-1 bg-[#DEDCFF] rounded-lg px-2 py-1 shadow shadow-[#050315]">
                     <p class="text-center font-normal text-sm">🔥 <span id="randomNumber"></span> Viewing Right
                         NOW! 🔥</p>
                 </div>
@@ -988,7 +999,7 @@
 
         </section>
 
-        <section id="get" class="mb-4 grid grid-cols-12 grid-rows-12 w-full">
+        <section id="youGet" class="mb-4 grid grid-cols-12 grid-rows-12 w-full">
             <div
                 class="col-start-1 col-end-9 row-start-1 row-end-13 bg-[#433bff] rounded-r-2xl h-full w-full shadow shadow-[#050315] -z-50">
             </div>
@@ -1022,7 +1033,7 @@
                             stress.<br /><span class="font-extrabold">(Value: $129)</span></span>
                     </p>
 
-                    <p class="mb-4 flex justify-start items-start gap-x-2" id="get2">☑️ <span><span
+                    <p id="get" class="mb-4 flex justify-start items-start gap-x-2" id="get2">☑️ <span><span
                                 class="font-extrabold">Using
                                 Physical Therapy to Lower Stress:</span><br />
                             Understand the role of physical exercise in reducing stress and promoting health.<br /><span
@@ -1185,9 +1196,9 @@
                         </div>
 
                         <p class="font-normal text-2xl text-center flex justify-center items-center flex-wrap gap-1">
-                            <span><span class="font-extrabold text-green-900">Save</span> $1050 <span
+                            <span><span class="font-extrabold text-green-900">Save</span> $1100 <span
                                     class="font-extrabold text-green-900">NOW!</span></span><span
-                                class="text-red-900 font-extrabold underline underline-offset-1">(91% OFF!)</span>
+                                class="text-red-900 font-extrabold underline underline-offset-1">(95% OFF!)</span>
                         </p>
 
                         <div class="flex justify-center items-center gap-x-2">
